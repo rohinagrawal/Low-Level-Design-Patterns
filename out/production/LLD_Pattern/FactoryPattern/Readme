@@ -1,0 +1,9 @@
+Question - Create a system in which client can create an address and check if the address is vaild or not .
+    Handle Address Pattern change with change in Country.
+    Implement it using Factory Pattern.
+Code should follow -
+    Single Responsibility Principle.
+    Best Client User Experience.
+    Least Dirty Code.
+    Easy Testing.
+    Abstraction (If we add a feature in our code the code for client should not change)

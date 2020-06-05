@@ -2,7 +2,7 @@ package FactoryPattern;
 // This is an umbrella class for all the different address validation Methods
 // according to the country INDIA as different country have different address patterns
 // i.e. PincodeValidation, CityValidation, StateValidation etc.
-public class INValidator extends Validator {
+public class INValidator implements Validator {
     @Override
     public boolean Validate(Address a) {
 //        This class will combine the output of different address validation classes acc. to country

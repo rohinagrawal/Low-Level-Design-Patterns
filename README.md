@@ -9,11 +9,11 @@ Patterns used in the Industry to crate a Backwards compatible,
     What things you need
     
     JDK (Java Developement Kit)
-    
+    IDE (Preferred IntelliJ)
     
     Contributing
     
-    Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to me.
+    Please fork the Repo and then process for submitting pull requests to me.
     
     Authors
     
