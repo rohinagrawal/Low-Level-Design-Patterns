@@ -1,10 +1,10 @@
 package BuilderPattern;
 
 public class bird {
-    String name;
-    int weight;
-    int height;
-    String color;
+    private String name;
+    private int weight;
+    private int height;
+    private String color;
     public bird(builder x){
         this.name =x.name;
         this.weight =x.weight;

@@ -7,17 +7,23 @@ package SingletonPattern;
 // instantiate the class but checking that it has not been instantiated before.
 
 public class Example {
-    String name;
-    Example instance;
+    private String name;
+    private static Example instance;
 
     private Example(String name){
         this.name=name;
     }
 
-    public Example getInstance(String name){
+    public static Example getInstance(String name){
+//        We will do static else it will be an infinite loop that we need an object to call getInstance()
+//        and getInstance will give the object.
         if(instance==null)
             instance= new Example(name);
         return instance;
+    }
+
+    public String getName() {
+        return name;
     }
 }
 

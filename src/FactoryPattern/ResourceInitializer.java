@@ -15,7 +15,7 @@ import java.util.Set;
 
 public class ResourceInitializer {
     static Set <String> pincode;
-    static ResourceInitializer temp;
+    private static ResourceInitializer temp;
 
     private ResourceInitializer(){
 //    Create a connection with Database

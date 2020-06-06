@@ -5,11 +5,11 @@ package FactoryPattern;
 //POJO -> Plain old Java Object
 //It contains only Getter, Setter & Attributes
 public class Address {
-    String pincode;
-    String city;
-    String state;
-    String country;
-    String house_no;
+    private String pincode;
+    private String city;
+    private String state;
+    private String country;
+    private String house_no;
 
 
     public void setPincode(String pincode) {

@@ -4,6 +4,6 @@ package FactoryPattern;
 public class Client {
     boolean validate(Address a){
         ValidatorFactory x = ValidatorFactory.getInstance();
-        return x.getValidator(a.country).Validate(a);
+        return x.getValidator(a.getCountry()).Validate(a);
     }
 }
