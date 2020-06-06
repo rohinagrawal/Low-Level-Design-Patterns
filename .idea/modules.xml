@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/LLD_Pattern.iml" filepath="$PROJECT_DIR$/LLD_Pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Low-Level-Design-Patterns.iml" filepath="$PROJECT_DIR$/Low-Level-Design-Patterns.iml" />
     </modules>
   </component>
 </project>

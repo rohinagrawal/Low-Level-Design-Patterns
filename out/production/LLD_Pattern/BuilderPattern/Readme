@@ -1,4 +1,0 @@
-Question - Create a class bird that can be
-    Initialized with any number of parameters
-    Initialized with parameters in any order
-Implement it using Builder Pattern
