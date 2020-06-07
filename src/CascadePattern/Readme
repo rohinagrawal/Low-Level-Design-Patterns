@@ -1,0 +1,20 @@
+Question - Create a Address Validation Schema/Code for an E-commerce Website.
+    As the Complexity of Validating different elements of the Address
+    have different complexity develop a system that Fails Fast using CASCADE Pattern.
+    Also different Teams of the Website could require different parts of Address validated.
+Code should -
+    Tell point of Failure (What was entered wrong)
+    Relation Validation (Can tell if the zip code and city matches)
+    Single Responsibility Principle.
+    Best Client User Experience.
+    Least Dirty Code.
+    Easy Testing.
+    Abstraction (If we add a feature in our code the code for client should not change)
+
+Ex- Teams:
+        Order Dispatch          {zip,city}
+        Cart                    {zip}
+        Product Availability    {zip}
+
+    Also, Complexity:
+    House_No > City >= State >= Country >= zip

@@ -1,9 +1,9 @@
 package FactoryPattern;
 
-/*    --------       create             ~~~~~~~~~~~
- *   | App   | ---------------->        ~~~~~~~~~~~
- *   |       |                          |   Db    |
- *   --------                           |_________|
+/*    --------     connection             ~~~~~~~~~~~
+ *   | App   |   ---------------->        ~~~~~~~~~~~
+ *   |       |                            |   Db    |
+ *   --------                             |_________|
  * */
 
 // The Operation with the database are very heavy and we should avoid doing it again and again.

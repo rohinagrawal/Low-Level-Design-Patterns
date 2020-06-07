@@ -12,7 +12,7 @@ public class Address {
     private String house_no;
 
 
-    public void setPincode(String pincode) {
+    public void setZipcode(String pincode) {
         this.zip = pincode;
     }
 
@@ -32,7 +32,7 @@ public class Address {
         this.house_no = house_no;
     }
 
-    public String getPincode() {
+    public String getZipcode() {
         return zip;
     }
 
