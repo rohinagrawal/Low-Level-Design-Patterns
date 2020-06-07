@@ -13,5 +13,5 @@ package FactoryPattern;
 // so this class will be parent of all Country class and we can initalize the country constructor
 // in the object of Validator(Parent) Class.
 public interface Validator {
-    public abstract boolean Validate(Address a);
+    public boolean Validate(Address a);
 }
